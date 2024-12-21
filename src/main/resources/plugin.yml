@@ -1,0 +1,10 @@
+name: tutorial
+version: '1.0-SNAPSHOT'
+main: com.github.roitoayanokoji.tutorial.Tutorial
+api-version: '1.20'
+authors: [ roitoayanokoji ]
+website: com.github.roitoayanokoji
+commands:
+  hello:
+    description: helloworld
+    usage: /<command>
