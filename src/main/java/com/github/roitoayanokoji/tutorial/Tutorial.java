@@ -36,7 +36,7 @@ public final class Tutorial extends JavaPlugin {
                     //player.sendMessageはプレイヤーに()の中のメッセージを送るメソッド
                     //player.getName()はコマンドを実行したプレイヤーの名前を取得するメソッド
                 }else{
-                    sender.sendMessage("このコマンドはプレイヤーから実行する必要があります。");
+                    sender.sendMessage("このコマンドはプレイヤーから実行する必要があります!");
                     //ここはifのとこの条件式が(sender instanceof Player)なのでこのコマンドを実行したのがプレイヤーかどうかで
                     //elseはifがfalseつまりプレイヤーでない場合であったときに実行される部分
                 }
